@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import socialLinks from "../constants/social_links"
-// import heroImg from "../assets/images/hero.svg"
+import heroImg from "../assets/images/hero.svg"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="social-links">
               {socialLinks.map(link => {
                 return (
-                  <a href={link.url} key={link.id} className="social-link">
+                  <a href={link.url} key={link.id} className="social-link" target="_blank" rel="noreferrer">
                     {link.icon}
                   </a>
                 )
@@ -33,7 +33,7 @@ const Hero = () => {
           className="hero-img"
           placeholder="blurred"
         />
-        {/* <img src={heroImg} alt="portfolio" className="hero-img-svg" /> */}
+        <img src={heroImg} alt="portfolio" className="hero-img-svg" />
       </section>
     </header>
   )
