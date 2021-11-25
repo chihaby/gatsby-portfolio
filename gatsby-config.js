@@ -7,11 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `WebDev Portfolio`,
-    description: `Awesome WebDev Portfolio built with Gatsby and Strapi`,
-    titleTemplate: `%s | WebDev Portfolio`,
+    title: `Webcoder Portfolio`,
+    description: `We specialize in building custom websites and web applications`,
+    titleTemplate: `%s | Webcoder Portfolio`,
     url: `https://temp-strapi-portfolio.netlify.app`,
-    twitterUsername: `r`,
+    twitterUsername: `none`,
     image: `/mainImg.png`,
   },
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
         queryLimit: 1000, // Default to 100
         contentTypes: [`job`, `project`],
         //If using single types place them in this array.
-        singleTypes: [`about`],
+        singleTypes: [`about`, `testt`],
         // Possibility to login with a strapi user, when content types are not publically available (optional).
       },
     },

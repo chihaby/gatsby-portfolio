@@ -12,14 +12,20 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h1>i'm Radouane</h1>
-            <h4>freelance web and mobile UI/UX Designer</h4>
+            <h4>freelance web developer and UI/UX Designer</h4>
             <Link to="/contact" className="btn">
               contact me
             </Link>
             <div className="social-links">
               {socialLinks.map(link => {
                 return (
-                  <a href={link.url} key={link.id} className="social-link" target="_blank" rel="noreferrer">
+                  <a
+                    href={link.url}
+                    key={link.id}
+                    className="social-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     {link.icon}
                   </a>
                 )
