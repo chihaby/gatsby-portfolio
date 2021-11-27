@@ -11,13 +11,13 @@ const services = [
     id: 2,
     icon: <FaSketch className="service-icon" />,
     title: "web design",
-    text: `I design websites`,
+    text: `I will create a custom website design tailored to your specific business needs. Responsive, easy to navigate, and user friendly.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
     title: "Digital Marketing",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `Build a strategic marketing camapign for your specific niche to your target audience. Develop and implement effective search engine optimization (SEO).`,
   },
 ]
 
