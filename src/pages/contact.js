@@ -8,6 +8,7 @@ const contact = () => {
       <Seo title="Contact" />
       <section className="contact-page">
         <h3>get in touch</h3>
+
         <FaEnvelopeSquare className="social-icon" size={40}></FaEnvelopeSquare>
         <span>
           <bold>chihaby@gmail.com</bold>

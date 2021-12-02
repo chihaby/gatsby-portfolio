@@ -925,3 +925,8 @@ Contact Page
   place-items: center;
   padding: 5rem 0;
 }
+
+.contact-page :hover {
+  color: var(--clr-primary-5);
+  box-shadow: 0px 2px var(--clr-primary-5);
+}
