@@ -10,7 +10,7 @@ module.exports = {
     title: `Radouane Chihaby Portfolio`,
     description: `I am a web developer with industry experience in building websites and web applications. I specialize in JavaScript and have professional experience working with Node and React. I create custom website designs tailored to specific business needs. Responsive, easy to navigate, and user friendly. I conduct strategic marketing campaigns for clients and businesses towards their target audiences. Develop and implement effective search engine optimization (SEO).`,
     titleTemplate: `%s | Radouane Portfolio`,
-    url: `https://temp-strapi-portfolio.netlify.app`,
+    url: `https://temp-radouane-portfolio.netlify.app/`,
     twitterUsername: `none`,
     image: `/mainImg.png`,
   },
